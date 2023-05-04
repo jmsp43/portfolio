@@ -38,13 +38,19 @@
 
 
         img{
-            width:200px;
+            // width: 125px;
+            // height: 125px;
             margin-right: 0;
             margin-left: 20px;
             opacity:0;
             height:auto;
-            animation: rotateIn 1s linear both;
-            animation-delay: 2s;
+            animation: bounceIn 1.5s linear both;
+            // animation-delay: 1s;
+
+            &:hover{
+                // animation-delay: 0s;
+                animation: rubberBand 1.5s;
+            }
 
         }
     }
@@ -68,7 +74,7 @@ h2{
     letter-spacing: 3px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
-    padding: 15px 15px 15px 15px;
+    padding: 12px 12px 12px 12px;
     // margin: 45px;
     border: 1px solid rgb(255, 186, 223);
     animation: fadeIn 1s 2s backwards;
@@ -78,9 +84,9 @@ h2{
     &:hover{
         background-color: rgb(255, 186, 223);
         color:navy;
-        box-shadow: 5px 5px 5px 5px navy;
-        font-size: 18px;
-        padding: 20px 20px 20px 20px;
+        box-shadow: 3px 3px 3px 3px navy;
+        font-size: 17px;
+        padding: 15px 15px 15px 15px;
     }
 
 }
