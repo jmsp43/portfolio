@@ -3,6 +3,7 @@ import LogoJ from '../../assets/images/logoJ.png'
 import cakeE from '../../assets/images/cakeE.png'
 import cakeN from '../../assets/images/cakeN.png'
 import cakeA from '../../assets/images/cakeA.png'
+import name from '../../assets/images/subLogoJ.png'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
@@ -40,8 +41,29 @@ const Home = () => {
 
                     <h2>JavaScript | MongoDB | ExpressJS | ReactJS | NodeJS | Python | SQL </h2>
                     <br/>
-                    <Link to = '/contact' className = 'button'>Contact Me</Link>
+                    <Link to='/contact' className='button'>Contact Me</Link>
+                    
+                    <br/>
+                <h2>My Projects</h2>
+                <div className='projectSection'>
+                    <div className='weather'>
+                            <img/>
+                        <p>image of weather app with description below it</p>
+                    </div>
+
+                    <div className='trails'>
+                            <img/>
+                        <p>image of trails game with description below it</p>
+                    </div>
+
+                    <div className='en forme'>
+                            <img />
+                        <p>image of exercise app with description below it</p>
+                    </div>
+
                 </div>
+                </div>
+
 
             </div>
         </>
