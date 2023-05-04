@@ -31,10 +31,10 @@ const Home = () => {
                         <span className={`${letterClassState} _15`}>'m</span>
                         <br />
                         <img src={LogoJ} width = '125px' height = '125px' alt='letter logo' />
-                        <img src={cakeE} width = '90px' height = '90px' alt='letter logo' />
+                        <img src={cakeE} width = '80px' height = '80px' alt='letter logo' />
                         <img src={cakeN} width = '125px' height = '125px' alt='letter logo' />
                         <img src={cakeN} width = '125px' height = '125px' alt='letter logo' />
-                        <img src={cakeA} width = '110px' height = '110px' alt='letter logo' />
+                        <img src={cakeA} width = '105px' height = '105px' alt='letter logo' />
                         <br />
                         <AnimatedLetters letterClass={letterClassState} strArray={careerArr} index={16} />
                     </h1>
