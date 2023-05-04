@@ -61,32 +61,42 @@ h2{
     color:rgb(224, 241, 255);
     margin-top: 20px;
     font-weight: 400;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    animation: fadeIn 1s 2s backwards;
+}
+
+h3{
+    color:rgb(224, 241, 255);
+    margin-top: 20px;
+    font-weight: 400;
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 4px;
     animation: fadeIn 1s 2s backwards;
 }
 
-.button{
-    color:rgb(255, 186, 223);
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    padding: 12px 12px 12px 12px;
-    // margin: 45px;
-    border: 1px solid rgb(255, 186, 223);
-    animation: fadeIn 1s 2s backwards;
-    white-space: nowrap;
-    border-radius: 25px 25px 25px 25px;
+// .button{
+//     color:rgb(255, 186, 223);
+//     font-size: 14px;
+//     font-weight: 400;
+//     letter-spacing: 3px;
+//     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+//     text-decoration: none;
+//     padding: 12px 12px 12px 12px;
+//     // margin: 45px;
+//     border: 1px solid rgb(255, 186, 223);
+//     animation: fadeIn 1s 2s backwards;
+//     white-space: nowrap;
+//     border-radius: 25px 25px 25px 25px;
 
-    &:hover{
-        background-color: rgb(255, 186, 223);
-        color:navy;
-        box-shadow: 3px 3px 3px 3px navy;
-        font-size: 17px;
-        padding: 15px 15px 15px 15px;
-    }
+//     &:hover{
+//         background-color: rgb(255, 186, 223);
+//         color:navy;
+//         box-shadow: 3px 3px 3px 3px navy;
+//         font-size: 17px;
+//         padding: 15px 15px 15px 15px;
+//     }
 
-}
+// }

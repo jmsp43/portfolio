@@ -39,10 +39,8 @@ const Home = () => {
                         <AnimatedLetters letterClass={letterClassState} strArray={careerArr} index={16} />
                     </h1>
 
-                    <h2>JavaScript | MongoDB | ExpressJS | ReactJS | NodeJS | Python | SQL </h2>
+                    <h3>JavaScript | MongoDB | ExpressJS | ReactJS | NodeJS | Python | SQL </h3>
                     <br/>
-                    <Link to='/contact' className='button'>Contact Me</Link>
-                    
                     <br/>
                 <h2>My Projects</h2>
                 <div className='projectSection'>
