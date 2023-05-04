@@ -1,0 +1,86 @@
+.homePage{
+    .textArea{
+        position: absolute;
+        left: 35%;
+        top: 50%;
+        transform: translateY(-50%);
+        width:60%;
+        max-height: 90%;
+    }
+
+    h1{
+        color:rgb(213, 236, 255);
+        font-size: 55px;
+        margin: 0 auto;
+        font-family: fantasy;
+        font-weight: 400;
+
+        &::before{
+            content: '<h1>';
+            font-family: fantasy;
+            color:rgb(255, 186, 223);
+            font-size: 20px;
+            position:absolute;
+            margin-top: -40px;
+            opacity: 0.6;
+        }
+        &::after{
+            content: '</h1>';
+            font-family: fantasy;
+            color:rgb(255, 186, 223);
+            font-size: 20px;
+            position: absolute;
+            margin-top: 30px;
+            animation: fadeIn 1s 2s backwards;
+            opacity: 0.6;
+        }
+
+
+
+        img{
+            width:200px;
+            margin-right: 0;
+            margin-left: 20px;
+            opacity:0;
+            height:auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 2s;
+
+        }
+    }
+
+}
+
+h2{
+    color:rgb(224, 241, 255);
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    animation: fadeIn 1s 2s backwards;
+}
+
+.button{
+    color:rgb(255, 186, 223);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+    // margin: 45px;
+    border: 1px solid rgb(255, 186, 223);
+    animation: fadeIn 1s 2s backwards;
+    white-space: nowrap;
+    border-radius: 25px 25px 25px 25px;
+
+    &:hover{
+        background-color: rgb(255, 186, 223);
+        color:navy;
+        box-shadow: 5px 5px 5px 5px navy;
+        font-size: 18px;
+        padding: 20px 20px 20px 20px;
+    }
+
+}
