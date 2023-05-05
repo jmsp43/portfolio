@@ -25,11 +25,13 @@ export default function About() {
           {mapAbout}
         </h1>
         <br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolores at qui error odio repellat minus blanditiis dicta a ut eum eveniet neque, reprehenderit facere, sequi perspiciatis dolorum cupiditate earum.</p>
+        <p>Creative soul with a love for math and a keen eye for detail. Love meeting new people, collaborating on projects, and learning new things. Inside of the tech sphere: currently learning TypeScript! Outside of the tech sphere, I'm learning French!</p>
         <br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nam, nesciunt quisquam debitis tempore expedita ducimus, cupiditate inventore magni ex architecto beatae, ipsum doloribus maiores voluptatibus molestiae dolorem odit. Autem.</p>
+        <p>I'm passionate about bringing a forward-thinking mindset and a focus on innovation and ingenuity to any project I work on, and would love to join a team with as much drive to create tangible, positive change for those who encounter our work as I do.</p>
         <br/>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In vel saepe numquam consequuntur incidunt, dolorem eveniet illo vitae adipisci dolor explicabo architecto nam voluptas placeat molestiae sapiente omnis veniam voluptatum.</p>
+        <p>Ever since my first job as a math tutor in my sophomore year of high school, and I always dreamed of a way to not only reconcile, but harness both my problem-solving, analytical nature with my creative, free-thinking industriousness, and software engineering has done all that and more.</p>
+        <br />
+        <p>A few photos of me having the time of my life:</p>
       </div>
     </div>
   )
