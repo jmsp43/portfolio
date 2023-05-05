@@ -19,7 +19,7 @@ const Layout = () => {
                     
                     <span className='bottom-tag-html'>&lt;/html&gt;</span>
                 </div>
-                <Home/>
+                <Home />
             </div> 
         </>
     )
