@@ -153,8 +153,8 @@
             position: absolute;
             width: 200px;
             height: 200px;
-            border: 1px solid #ccc;
-            background: rgb(0,0,0);
+            border: 5px solid #ccc;
+            background: rgb(45, 35, 94);
             font-size: 100px;
             display:flex;
             justify-content: center;
@@ -162,12 +162,14 @@
             box-shadow: 0 0 20px 0px lightblue;
         }
 
-        
+        //face1 and 2 disappearing and reappearing randomly
         .face1{
+            background-color: bisque;
             transform: rotateY(0deg)translateZ(100px);
             border-radius: 20px 20px 20px 20px;
         }
         .face2{
+            background-color: aquamarine;
             transform: rotateY(180deg) translateZ(100px);
             border-radius: 20px 20px 20px 20px;
         }
@@ -189,9 +191,12 @@
         }
     }
 
+    //spinning cube video
+    //https://youtu.be/Te5hFk35aEk
+
     @keyframes spinCube {
         0%{
-            transform: rotate3d(0,0,0,0);
+            transform: rotate3d(0,0,0,0deg);
         }
         25%{
             transform: rotate3d(0,1,1,90deg)

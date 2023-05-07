@@ -5,6 +5,7 @@ import cakeN from '../../assets/images/cakeN.png'
 import cakeA from '../../assets/images/cakeA.png'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
+import Loader from 'react-loaders'
 
 const Home = () => {
     const [letterClassState, setLetterClassState] = useState('text-animate')
@@ -57,6 +58,7 @@ const Home = () => {
 
 
             </div>
+            <Loader type = 'pacman'/>
         </>
     )
 }

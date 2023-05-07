@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faJsSquare, faNodeJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 import mongoDB from '../../assets/images/mongoDB.png';
 import sql from '../../assets/images/sql.png'
+import Loader from 'react-loaders'
 
 export default function About() {
   const [letterClassState, setLetterClassState] = useState('text-animate')
@@ -21,6 +22,7 @@ export default function About() {
 })
 
   return (
+    <>
     <div className='container aboutPage'>
       <div className = 'textArea'>
         <h1>
@@ -37,6 +39,7 @@ export default function About() {
 
       <div className='cube-container'>
         <div className='spinner'>
+
           <div className = 'face1'>
             <FontAwesomeIcon icon = {faNodeJs} color = 'chartreuse'></FontAwesomeIcon>
           </div>
@@ -64,6 +67,8 @@ export default function About() {
         </div>
 
       </div>
-    </div>
+      </div>
+      <Loader type= 'pacman'/>
+      </>
   )
 }
