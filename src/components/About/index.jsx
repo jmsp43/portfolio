@@ -50,7 +50,7 @@ export default function About() {
           </div>
 
           <div className = 'face4'>
-            <img width = '10px' height = '10px' src={mongoDB}/>
+            <img width = '100px' height = '100px' src={mongoDB}/>
           </div>
 
           <div className = 'face5'>
@@ -58,7 +58,7 @@ export default function About() {
           </div>
 
           <div className = 'face6'>
-            <img width = '10px' height = '10px' src={sql}/>
+            <img width = '100px' height = '100px' src={sql}/>
           </div>
 
         </div>

@@ -147,13 +147,14 @@
         transform-style: preserve-3d;
         transform-origin: 100px 100px 0;
         margin-left: calc(25% - 100px);
+        
 
         div{
             position: absolute;
             width: 200px;
             height: 200px;
             border: 1px solid #ccc;
-            background: rgba(255,255,255,0.4);
+            background: rgb(0,0,0);
             font-size: 100px;
             display:flex;
             justify-content: center;
@@ -161,45 +162,48 @@
             box-shadow: 0 0 20px 0px lightblue;
         }
 
+        
         .face1{
-            transform: translateZ(100px);
+            transform: rotateY(0deg)translateZ(100px);
+            border-radius: 20px 20px 20px 20px;
         }
         .face2{
-            transform: rotateY(90deg) translateZ(100px);
+            transform: rotateY(180deg) translateZ(100px);
+            border-radius: 20px 20px 20px 20px;
         }
         .face3{
-            transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+            transform: rotateY(-90deg) translateZ(100px);
+            border-radius: 20px 20px 20px 20px;
         }
         .face4{
-            transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+            transform: rotateY(90deg) translateZ(100px);
+            border-radius: 20px 20px 20px 20px;
         }
         .face5{
-            transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+            transform: rotateX(90deg) translateZ(100px);
+            border-radius: 20px 20px 20px 20px;
         }
         .face6{
-            transform: rotateY(-90deg) translateZ(100px);
+            transform: rotateX(-90deg) translateZ(100px);
+            border-radius: 20px 20px 20px 20px;
         }
     }
 
     @keyframes spinCube {
-        from,
-        to{
-            transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        0%{
+            transform: rotate3d(0,0,0,0);
         }
-        16%{
-            transform: rotateY(-90deg)
-        }
-        33%{
-            transform: rotateY(-90deg) rotateZ(90deg);
+        25%{
+            transform: rotate3d(0,1,1,90deg)
         }
         50%{
-            transform: rotateY(-180deg) rotateZ(90deg)
+            transform: rotate3d(1,0,1,180deg);
         }
-        66%{
-            transform: rotateY(-270deg) rotateZ(90deg)
+        75%{
+            transform: rotate3d(1,1,0,240deg)
         }
-        83%{
-            transform: rotateX(90deg) 
+        100%{
+            transform: rotate3d(1,1,1,360deg)
         }
     }
 }
