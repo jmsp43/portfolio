@@ -11,7 +11,7 @@ const [letterClassState, setLetterClassState] = useState('text-animate')
     setLetterClassState('text-animate-hover')
 }, 5000)
 
-const contact = "Contact Me".split('')
+const contact = "Under Construction".split('')
 const mapContact = contact.map((char, i) => {
 
   return (

@@ -14,7 +14,7 @@ const [letterClassState, setLetterClassState] = useState('text-animate')
     setLetterClassState('text-animate-hover')
 }, 5000)
 
-const projects = "My Projects".split('')
+const projects = "Under Construction".split('')
 const mapProjects = projects.map((char, i) => {
 
   return (

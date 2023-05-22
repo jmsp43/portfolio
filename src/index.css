@@ -9,7 +9,7 @@ body{
   background-image: url('../src/assets/images/pinkWonderBG.jpg');
   background-size:cover;
   /* background-repeat: no-repeat; */
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

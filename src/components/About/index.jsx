@@ -14,7 +14,7 @@ export default function About() {
     setLetterClassState('text-animate-hover')
   }, 2000)
   
-  const aboutMe = 'About Me'.split('')
+  const aboutMe = 'Under Construction'.split('')
   const mapAbout = aboutMe.map((char, i) => {
     return (
         <span className={`${letterClassState} _${i}`}>{char}</span>
